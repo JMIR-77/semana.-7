@@ -1,0 +1,20 @@
+Al enviar una petición POST a http://localhost:3000/reportes con el siguiente JSON:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+El servidor responde confirmando que el reporte fue registrado:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+Al consultar GET http://localhost:3000/reportes, el servidor devuelve la lista
+completa de reportes almacenados en memoria. Mientras el servidor esté activo,
+todos los reportes enviados aparecen en esa lista. Si el servidor se reinicia,
+la lista vuelve a estar vacía porque los datos se guardan solo en memoria.

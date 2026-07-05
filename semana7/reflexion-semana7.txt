@@ -1,0 +1,14 @@
+Es muy importante que las comunidades puedan registrar y consultar reportes en
+una plataforma tecnológica porque esto les da voz y visibilidad ante las
+instituciones. Cuando un ciudadano puede reportar una incidencia de forma
+organizada, la información llega de manera clara y puede ser atendida con mayor
+rapidez y eficiencia.
+
+Además, tener un sistema de consulta permite que todos los miembros de la
+comunidad vean qué problemas han sido reportados, evitando duplicados y
+generando un registro histórico de las situaciones presentadas. Esto fomenta
+la transparencia y la participación activa. Desde el punto de vista técnico,
+usar arrays para almacenar reportes en memoria es un primer paso hacia sistemas
+más robustos con bases de datos. En resumen, estas plataformas fortalecen la
+relación entre ciudadanos e instituciones y mejoran la calidad de vida
+comunitaria mediante el uso de la tecnología.
